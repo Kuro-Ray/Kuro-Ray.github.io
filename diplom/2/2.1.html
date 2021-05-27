@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учебник</title>
+    <link rel="shortcut icon" href="../img/Facebook-публикация 940x788  пикс.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" media="screen,projection" href="../css/ui.totop.css" />
+</head>
+<body>
+    
+    <nav class="navbar navbar-dark">
+
+        <a class="navbar-brand" href="#"><img src="../img/Facebook-публикация 940x788  пикс.png"></a>
+        
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" id="home" href="../index.html">
+                <i class="fas fa-home " id="icon-home"></i>
+                <span class="icon-text-home">Главная</span>
+            </a>
+          </li>          
+          <li class="nav-item">
+            <a class="nav-link" id="works" href="../works.html">
+                <i class="fas fa-eye" id="icon-works"></i>
+                <span class="icon-text-works">Содержание</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="about" href="#">
+                <i class="fa fa-leanpub active" id="icon-about"></i>
+                <span class="icon-text-about">Учебник</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="test" href="../test.html">
+                <i class="fa fa-sticky-note-o" id="icon-test"></i>
+                <span class="icon-text-test">Тест</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="soc">
+          <li style="list-style-type: none;"><a href="https://vk.com/kuromaro" target="_blank" title="VKontakte"><i class="fa fa-vk"></i></a></li>
+          <li style="list-style-type: none;"><a href="https://www.instagram.com/erdneev_ray/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <div class="articleText" id="articleText">
+                <h1>Создание таблиц</h1>
+                
+                <div style="margin-top:23px;margin-left:6px;"><div></div>
+                <style>
+                .footer-adaptive { width: 320px; height: 100px; }
+                @media(min-width: 480px) { .footer-adaptive { width: 468px; height: 60px; } }
+                @media(min-width: 760px) { .footer-adaptive { width: 728px; height: 90px;  } }
+                @media(min-width: 1000px) { .footer-adaptive { width: 468px; height: 60px;  } }
+                @media(min-width: 1122px) { .footer-adaptive{ width: 728px; height: 90px;} }
+                @media(min-width: 1400px) { .footer-adaptive { width: 970px; height: 90px;} }
+                </style>
+                <!-- footer_adaptive -->
+                <ins class="adsbygoogle footer-adaptive" style="display:inline-block" data-ad-client="ca-pub-3716042175333627" data-ad-slot="9659512088"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                
+                </div>
+
+                <div class="navs">
+                  <h1 id="about-me">
+                    <a href="2.html">Назад</a>
+                    <a href="../about.html" class="page_num" pagenum="1">1</a>
+                    <a href="../1.1.html" class="page_num" pagenum="2">2</a>
+                    <a href="../1.2.html" class="page_num" pagenum="3">3</a>
+                    <a href="../1.3.html" class="page_num" pagenum="4">4</a>
+                    <a href="../2/2.html" class="page_num" pagenum="5">5</a>
+                    <a href="" class="page_num selected" pagenum="6">6</a>
+                    <a href="../2/2.2.html" class="page_num" pagenum="7">7</a>
+                    <a href="../3/3.html" class="page_num" pagenum="8">8</a>
+                    <a href="../3/3.1.html" class="page_num" pagenum="9">9</a>
+                    <a href="../3/3.2.html" class="page_num" pagenum="10">10</a>
+                    <a href="../3/3.3.html" class="page_num" pagenum="11">11</a>
+                    <a href="../3/3.4.html" class="page_num" pagenum="12">12</a>
+                    <a href="../3/3.5.html" class="page_num" pagenum="13">13</a>
+                    <a href="../3/3.6.html" class="page_num" pagenum="14">14</a>
+                    <a href="../4/4.html" class="page_num" pagenum="15">15</a>
+                    <a href="../4/4.1.html" class="page_num" pagenum="16">16</a>
+                    <a href="../4/4.2.html" class="page_num" pagenum="17">17</a>
+                    <a href="../4/4.3.html" class="page_num" pagenum="18">18</a>
+                    <a href="2.2.html">Вперед</a>
+                  </h1>
+                </div><br><br>
+                
+                <p>Ключевым объектом в базе данных являются таблицы. Таблицы состоят из строк и столбцов. Столбцы определяют тип информации, которая хранится, а строки содержат 
+                значения для этих столбцов.</p>
+                <p>В прошлой теме была создана база данных university. Теперь определим в ней первую таблицу. Опять же для создания таблицы в SQL Server Management Studio 
+                можно применить скрипт на языке SQL, либо воспользоваться графическим дизайнером. В данном случае выберем второе.</p>
+                <p>Для этого раскроем узел базы данных university в SQL Server Management Studio, нажмем на его подузел <span class="b">Tables</span> 
+                правой кнопкой мыши и далее в контексто	 меню выберем <span class="b">New -&gt; Table...</span>:</p>
+                <p class="fig"><img src="../img/22.png" alt="Создание таблицы в SQL Server Management Studio"></p>
+                <p>После этого нам откроется дизайнер таблицы. В центральной части в таблице необходимо ввести данные о столбцах таблицы. Дизайнер содержит три поля:</p>
+                <ul>
+                <li><p><span class="b">Column Name</span>: имя столбца</p></li>
+                <li><p><span class="b">Data Type</span>: тип данных столбца. Тип данных определяет, какие данные могут храниться 
+                в этом столбце. Например, если столбец представляет числовой тип, то он может хранить только числа.</p></li>
+                <li><p><span class="b">Allow Nulls</span>: может ли отсутствовать значение у столбца, то есть может ли он быть пустым</p></li>
+                </ul>
+                <p class="fig"><img src="../img/23.png" alt="Определение столбцов таблицы в SQL Server Management Studio"></p>
+                <p>Допустим, нам надо создать таблицу с данными учащихся в учебном заведении. Для этого в дизайнере таблицы четыре столбца: Id, FirstName, LastName и Year, которые будут представлять 
+                соответственно уникальный идентификатор пользователя, его имя, фамилию и год рождения. У первого и четвертого столбца надо указать тип int (то есть целочисленный), а у столбцов FirstName и LastName - тип <span class="b">nvarchar(50)</span> 
+                (строковый).</p>
+                <p>Затем в окне Properties, которая содержит свойства таблицы, в поле Name надо ввести имя таблицы - <span class="b">Students</span>, а в 
+                поле <span class="b">Identity</span> ввести Id, то есть тем самым указывая, что столбец Id будет идентификатором.</p>
+                <p>Имя таблицы должно быть уникальным в рамках базы данных. Как правило, название таблицы отражает название сущности, которая в ней хранится. Например, 
+                мы хотим сохранить студентов, поэтому таблица называется Students (слово студент во множественном числе на английском языке). Существуют 
+                разные мнения по поводу того, стоит использовать название сущности в единственном или множественном числе (Student или Students). В данном случае вопрос наименования таблицы всецело ложится на разработчика базы данных.</p>
+                <p>И в конце нам надо отметить, что столбец Id будет выполнять роль <span class="b">первичного ключа</span> (primary key). 
+                Первичный ключ уникально идентифицирует каждую строку. В роли первичного ключа может выступать один столбец, а может и несколько.</p>
+                <p>Для установки первичного ключа нажмем на столбец Id правой кнопкой мыши и в появившемся меню выберем пункт <span class="b">Set Primary Key</span>.</p>
+                <p class="fig"><img src="../img/24.png" alt="Установка первичного ключа в SQL Server"></p>
+                <p>После этого напротив поля Id должен появиться золотой ключик. Этот ключик будет указывать, что столбец Id будет выполнять роль 
+                первичного ключа.</p>
+                <p>И после сохранения в базе данных university появится таблица Students:</p>
+                <p>Мы можем заметить, что название таблицы на самом деле начинается с префикса <span class="b">dbo</span>. Этот префикс представляет схему. 
+                Схема определяет контейнер, который хранит объекты. То есть схема логически разграничивает базы данных. Если схема явным образом не указывается при создании объекта, то объект принадлежит 
+                схеме по умолчанию - схеме <span class="b">dbo</span>.</p>
+                <p>Нажмем правой кнопкой мыши на название таблицы, и нам отобразится контекстное меню с опциями:</p>
+                <p class="fig"><img src="../img/25.png" alt="Добавление таблиц в MS SQL Server 2016"></p>
+                <p>С помощью этих опций можно управлять таблицей. Так, опция Delete позволяет удалить таблицу. Опция Design откроет окно дизайнера таблицы, 
+                где мы можем при необходимости внести изменения в ее структуру.</p>
+                <p>Для добавления начальных данных можно выбрать опцию <span class="b">Edit Top 200 Rows</span>. Она открывает в виде таблицы 200 первых строк и 
+                позволяет их изменить. Но так как у нас таблица только создана, то естественно в ней будет никаких данных. Введем пару строк - пару студентов, указав 
+                необходимые данные для столбцов:</p>
+                <p class="fig"><img src="../img/26.png" alt="Добавление начальных данных в SQL Server 2016"></p>
+                <p>В данном случае я добавил две строки.</p>
+                <p>Затем опять же по клику на таблицу правой кнопкой мыши мы можем выбрать в контекстном меню пункт <span class="b">Select To 1000 Rows</span>, 
+                и будет запущен скрипт, который отобразит первые 1000 строк из таблицы:</p>
+                <p class="fig"><img src="../img/27.png" alt="Получение данных в SQL Server Management Studio"></p>
+                <div style="margin-top:25px;clear:both;">
+                <style>
+                .metanit-rect { width: 300px; height: 250px; }
+                @media(min-width: 500px) { .metanit-rect { width: 336px; height: 280px; } }
+                @media(min-width: 760px) { .metanit-rect { width: 728px; height: 90px;  } }
+                @media(min-width: 1000px) { .metanit-rect { width: 336px; height: 280px;  } }
+                @media(min-width: 1122px) { .metanit-rect{ width: 728px; height: 90px;} }
+                @media(min-width: 1400px) { .metanit-rect{ width: 970px; height: 90px;} }
+                </style>
+                <!-- metanit_rect -->
+                <ins class="adsbygoogle metanit-rect" style="display:inline-block" data-ad-client="ca-pub-3716042175333627" data-ad-slot="3119477283"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                </div>
+                
+                <div class="navs">
+                    <h1 id="about-me">
+                      <a href="2.html">Назад</a>
+                      <a href="../about.html" class="page_num" pagenum="1">1</a>
+                      <a href="../1.1.html" class="page_num" pagenum="2">2</a>
+                      <a href="../1.2.html" class="page_num" pagenum="3">3</a>
+                      <a href="../1.3.html" class="page_num" pagenum="4">4</a>
+                      <a href="../2/2.html" class="page_num" pagenum="5">5</a>
+                      <a href="../2/2.1.html" class="page_num selected" pagenum="6">6</a>
+                      <a href="../2/2.2.html" class="page_num" pagenum="7">7</a>
+                      <a href="../3/3.html" class="page_num" pagenum="8">8</a>
+                      <a href="../3/3.1.html" class="page_num" pagenum="9">9</a>
+                      <a href="../3/3.2.html" class="page_num" pagenum="10">10</a>
+                      <a href="../3/3.3.html" class="page_num" pagenum="11">11</a>
+                      <a href="../3/3.4.html" class="page_num" pagenum="12">12</a>
+                      <a href="../3/3.5.html" class="page_num" pagenum="13">13</a>
+                      <a href="../3/3.6.html" class="page_num" pagenum="14">14</a>
+                      <a href="../4/4.html" class="page_num" pagenum="15">15</a>
+                      <a href="../4/4.1.html" class="page_num" pagenum="16">16</a>
+                      <a href="../4/4.2.html" class="page_num" pagenum="17">17</a>
+                      <a href="../4/4.3.html" class="page_num" pagenum="18">18</a>
+                      <a href="2.2.html">Вперед</a>
+                    </h1>
+                  </div>
+        </section>
+
+    </main>
+
+    <div class="container-footer">
+      <div class="footer">
+           <div class="copyright">
+               © 2021 Все права защищены | <a href="https://vk.com/kuromaro">АВТОР</a>
+           </div>
+
+           <div class="information">
+               <a href="../index.html">Главная</a> | <a href="../works.html">Содержание</a> | <a href="../test.html">Тест</a> | 
+               <a class="btn contact-btn" href="../TRZBD.pdf" style="font-size: 10px; margin-top: 0;">Скачать pdf</a>
+           </div>
+       </div>
+    </div>
+
+
+<script src="https://kit.fontawesome.com/475833b573.js" crossorigin="anonymous"></script>
+<script src="../js/main.js"></script>
+
+<!-- jquery -->
+<script src="../js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<!-- easing plugin ( optional ) -->
+<script src="../js/easing.js" type="text/javascript"></script>
+<!-- UItoTop plugin -->
+<script src="../js/jquery.ui.totop.js" type="text/javascript"></script>
+<!-- Starting the plugin -->
+<script type="text/javascript">
+$(document).ready(function() {
+/*
+var defaults = {
+containerID: 'toTop', // fading element id
+containerHoverID: 'toTopHover', // fading element hover id
+scrollSpeed: 1200,
+easingType: 'linear'
+};
+*/
+ 
+$().UItoTop({ easingType: 'easeOutQuart' });
+ 
+});
+</script>
+
+</body>
+</html>
